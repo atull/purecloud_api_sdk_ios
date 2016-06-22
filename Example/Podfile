@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PureCloudApiSdk_Tests' do
+  pod 'PureCloudApiSdk', :path => '../'
+  
+  
+end
