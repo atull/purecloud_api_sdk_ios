@@ -6,8 +6,13 @@
 
 import Foundation
 
-public class PureCloudApiClientAPI {
+public class Configuration {
+    public static var accessToken = ""
     public static var basePath = "https://api.mypurecloud.com"
+}
+
+public class PureCloudApiClientAPI {
+    public static var basePath = Configuration.basePath
     public static var credential: NSURLCredential?
     public static var customHeaders: [String:String] = [:]  
     static var requestBuilderFactory: RequestBuilderFactory = AlamofireRequestBuilderFactory()
@@ -43,9 +48,14 @@ public class RequestBuilder<T> {
         self.parameters = parameters
         self.isBody = isBody
         
-        addHeaders(PureCloudApiClientAPI.customHeaders)
+        addHeaders(customHeaders())
     }
-    
+
+    func customHeaders() -> [String:String] {
+        var headers: [String:String] = ["Content-Type":"application/json", "Authorization":"bearer \(Configuration.accessToken)"]
+        return headers
+    }
+
     public func addHeaders(aHeaders:[String:String]) {
         for (header, value) in aHeaders {
             headers[header] = value
