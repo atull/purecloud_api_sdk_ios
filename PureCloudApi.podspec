@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name = 'PureCloudApiClient'
+  s.name = 'PureCloudApi'
   s.version = '0.0.1'
   s.summary = 'Swift wrapper around the PureCloud Public API.'
   s.homepage = 'https://github.com/MyPureCloud/purecloud_api_sdk_ios'
@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source = { :git => 'git@github.com:swagger-api/swagger-mustache.git', :tag => 'v1.0.0' }
   s.author = { 'Shashikant' => 'shashikant.more@inin.com' }
   s.license = 'Apache License, Version 2.0'
-  s.source_files = 'PureCloudApiClient/Classes/**/*.swift'
+  s.source_files = 'PureCloudApi/Classes/**/*.swift'
   s.dependency 'Alamofire', '~> 3.1.4'
 end
