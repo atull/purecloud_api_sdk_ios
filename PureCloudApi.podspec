@@ -1,11 +1,10 @@
 Pod::Spec.new do |s|
   s.name = 'PureCloudApi'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.summary = 'Swift wrapper around the PureCloud Public API.'
-  s.homepage = 'https://github.com/MyPureCloud/purecloud_api_sdk_ios'
+  s.homepage = 'https://github.com/MyPureCloud/purecloud_api_sdk_ios.git'
   s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.9'
-  s.source = { :git => 'git@github.com:swagger-api/swagger-mustache.git', :tag => 'v1.0.0' }
+  s.source = { :git => 'https://github.com/MyPureCloud/purecloud_api_sdk_ios.git', :tag => s.version.to_s }
   s.author = { 'Shashikant' => 'shashikant.more@inin.com' }
   s.license = 'Apache License, Version 2.0'
   s.source_files = 'PureCloudApi/Classes/**/*.swift'
