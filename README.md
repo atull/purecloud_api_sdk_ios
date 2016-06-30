@@ -40,9 +40,7 @@ UsersAPI.getUsersMe { (data, error) in
     }
 }
 ```
-## Author
 
-Shashikant, shashikant.more@inin.com
 
 ## License
 
