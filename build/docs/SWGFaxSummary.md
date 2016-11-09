@@ -1,0 +1,12 @@
+# SWGFaxSummary
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**readCount** | **NSNumber*** |  | [optional] 
+**unreadCount** | **NSNumber*** |  | [optional] 
+**totalCount** | **NSNumber*** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

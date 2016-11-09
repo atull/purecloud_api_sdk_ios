@@ -1,0 +1,27 @@
+# SWGEndpoint
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**_id** | **NSString*** | The globally unique identifier for the object. | [optional] 
+**name** | **NSString*** | Name | 
+**_description** | **NSString*** |  | [optional] 
+**version** | **NSNumber*** |  | [optional] 
+**dateCreated** | **NSDate*** | Date time is represented as an ISO-8601 string. For example: yyyy-MM-ddTHH:mm:ss.SSSZ | [optional] 
+**dateModified** | **NSDate*** | Date time is represented as an ISO-8601 string. For example: yyyy-MM-ddTHH:mm:ss.SSSZ | [optional] 
+**modifiedBy** | **NSString*** |  | [optional] 
+**createdBy** | **NSString*** |  | [optional] 
+**state** | **NSString*** |  | [optional] 
+**modifiedByApp** | **NSString*** |  | [optional] 
+**createdByApp** | **NSString*** |  | [optional] 
+**count** | **NSNumber*** |  | [optional] 
+**properties** | **NSDictionary&lt;NSString*, NSObject*&gt;*** |  | [optional] 
+**schema** | [**SWGUriReference***](SWGUriReference.md) | Schema | 
+**enabled** | **NSNumber*** |  | [optional] [default to @0]
+**site** | [**SWGUriReference***](SWGUriReference.md) |  | [optional] 
+**dids** | **NSArray&lt;NSString*&gt;*** |  | [optional] 
+**selfUri** | **NSString*** | The URI for this object | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

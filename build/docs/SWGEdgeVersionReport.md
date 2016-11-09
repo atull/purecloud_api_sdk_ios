@@ -1,0 +1,11 @@
+# SWGEdgeVersionReport
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**oldestVersion** | [**SWGEdgeVersionInformation***](SWGEdgeVersionInformation.md) |  | [optional] 
+**varNewestVersion** | [**SWGEdgeVersionInformation***](SWGEdgeVersionInformation.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
