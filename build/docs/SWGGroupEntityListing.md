@@ -9,8 +9,8 @@ Name | Type | Description | Notes
 **total** | **NSNumber*** |  | [optional] 
 **selfUri** | **NSString*** |  | [optional] 
 **firstUri** | **NSString*** |  | [optional] 
-**previousUri** | **NSString*** |  | [optional] 
 **nextUri** | **NSString*** |  | [optional] 
+**previousUri** | **NSString*** |  | [optional] 
 **lastUri** | **NSString*** |  | [optional] 
 **pageCount** | **NSNumber*** |  | [optional] 
 
