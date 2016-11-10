@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint SwaggerClient.podspec' to ensure this is a
+# Be sure to run `pod lib lint PurecloudApiSDK.podspec' to ensure this is a
 # valid spec and remove all comments before submitting the spec.
 #
 # Any lines starting with a # are optional, but encouraged
@@ -8,7 +8,7 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = "SwaggerClient"
+    s.name             = "PurecloudApiSDK"
     s.version          = "1.0.0"
 
     s.summary          = "PureCloud Platform API"
@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/swagger-api/swagger-codegen.git", :tag => "#{s.version}" }
     s.author       = { "Swagger" => "apiteam@swagger.io" }
 
-    s.source_files = 'SwaggerClient/**/*'
-    s.public_header_files = 'SwaggerClient/**/*.h'
+    s.source_files = 'PurecloudApiSDK/**/*'
+    s.public_header_files = 'PurecloudApiSDK/**/*.h'
 
     s.dependency 'AFNetworking', '~> 3'
     s.dependency 'JSONModel', '~> 1.2'

@@ -25,13 +25,15 @@
 
 @property(nonatomic) NSNumber* _float;
 
-@property(nonatomic) NSNumber* valueNode;
-
 @property(nonatomic) NSNumber* containerNode;
 
 @property(nonatomic) NSNumber* missingNode;
 
+@property(nonatomic) NSNumber* binary;
+
 @property(nonatomic) NSNumber* pojo;
+
+@property(nonatomic) NSNumber* valueNode;
 
 @property(nonatomic) NSNumber* integralNumber;
 
@@ -50,8 +52,6 @@
 @property(nonatomic) NSNumber* bigInteger;
 
 @property(nonatomic) NSNumber* textual;
-
-@property(nonatomic) NSNumber* binary;
 
 @property(nonatomic) NSNumber* array;
 
